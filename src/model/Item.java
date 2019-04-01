@@ -6,16 +6,20 @@ public class Item {
     private final int minCount;
     private int count;
 
-    Item(String name) {
-        this.name = name;
-        maxCount = 0;
-        minCount = 0;
-    }
-
-    Item(String name, int minCount, int maxCount) {
-        this.name = name;
-        this.minCount = minCount;
-        this.maxCount = maxCount;
+    Item(String input) throws NumberFormatException {
+        String[] inputs = input.split("\\|");
+        name = inputs[0];
+        if (inputs.length > 1) {
+            minCount = Integer.parseInt(inputs[1]);
+            if (inputs.length > 2) {
+                maxCount = Integer.parseInt(inputs[2]);
+            } else {
+                maxCount = 0;
+            }
+        } else {
+            minCount = 0;
+            maxCount = 0;
+        }
     }
 
     boolean hasCount(int r) {

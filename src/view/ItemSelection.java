@@ -44,4 +44,17 @@ class ItemSelection extends JPanel {
         repeat.addActionListener(e -> Starter.reset());
         add(repeat);
     }
+
+    private class ItemCheckBox extends JCheckBox {
+        private Item item;
+
+        ItemCheckBox(Item item) {
+            super(item.toString());
+            this.item = item;
+        }
+
+        Item getItem() {
+            return item;
+        }
+    }
 }

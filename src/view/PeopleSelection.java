@@ -1,6 +1,5 @@
 package view;
 
-import model.Item;
 import model.Person;
 import model.ModelMain;
 
@@ -17,7 +16,7 @@ class PeopleSelection extends JPanel {
             checkBoxes.add(c);
             add(c);
         }
-        JButton button = new JButton("Continue");
+        JButton button = new JButton("Weiter");
         button.addActionListener(e -> {
             LinkedList<Person> selectedPeople = new LinkedList<>();
             for(PersonCheckBox c : checkBoxes) {
@@ -28,5 +27,18 @@ class PeopleSelection extends JPanel {
             MainFrame.getMainFrame().showItems(ModelMain.getAvailableItems(selectedPeople));
         });
         add(button);
+    }
+
+    private class PersonCheckBox extends JCheckBox {
+        private Person person;
+
+        PersonCheckBox(Person person) {
+            super(person.toString());
+            this.person = person;
+        }
+
+        Person getPerson() {
+            return person;
+        }
     }
 }
