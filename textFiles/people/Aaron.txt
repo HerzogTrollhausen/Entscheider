@@ -13,7 +13,7 @@ Spelunky
 Stellaris
 Battle for Wesnoth
 CS:GO
-Don't Starve
+Don't starve
 Dungeon of the Endless
 Move Or Die
 Nidhogg
@@ -24,7 +24,7 @@ Witch It
 Keep Talking and Nobody explodes
 surviv.io
 skribbl.io
-Cards Against Humanity
+Cards against Humanity
 360
 TABG
 Battlerite
