@@ -8,7 +8,7 @@ Borderlands 2
 CS:GO
 CK2
 Dead by Daylight
-Don't Starve
+Don't starve
 Dungeon of the Endless
 Enter the Gungeon
 Garry's Mod
@@ -32,7 +32,7 @@ TABG
 Versus Squad
 Viscera Cleanup Detail: Santa's Rampage
 Viscera Cleanup Detail: Shadow Warrior
-Witch It
+Witch it
 Lol
 Stadt-Land-Fluss
 Cards against Humanity
