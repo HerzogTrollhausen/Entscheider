@@ -14,12 +14,12 @@ Arma 3
 Black Desert Online
 CS:GO
 Dead by Daylight
-Don't Starve Together
+Don't starve
 The Forest
 Garry's Mod
 Hero Siege
 Left 4 Dead 2
-Move or Die
+Move Or Die
 Nidhogg
 PAYDAY 2
 PUBG
@@ -41,4 +41,4 @@ Shadow Warrior
 Warhammer 40,000: Armageddon
 Warhammer 40,000: Dawn of War II
 Warhammer: Vermintide 2
-Witch It
+Witch it
