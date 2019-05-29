@@ -37,3 +37,4 @@ Terraria
 Viscera Cleanup Detail: Shadow Warrior
 The Forest
 Shellshock
+Brawlhalla
